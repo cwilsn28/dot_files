@@ -1,0 +1,185 @@
+// Place your key bindings in this file to override the defaultsauto[]
+[
+    {
+        "key": "cmd+k cmd+k",
+        "command": "-deleteAllRight",
+        "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "cmd+delete",
+        "command": "-deleteAllRight",
+        "when": "textInputFocus && !editorReadonly"
+    },
+    {
+        "key": "ctrl+k",
+        "command": "-deleteAllRight",
+        "when": "textInputFocus && !editorReadonly"
+    },
+    {
+        "key": "ctrl+e",
+        "command": "-cursorLineEnd",
+        "when": "textInputFocus"
+    },
+    {
+        "key": "ctrl+e",
+        "command": "-extension.vim_ctrl+e",
+        "when": "editorTextFocus && vim.active && vim.use<C-e> && !inDebugRepl"
+    },
+    {
+        "key": "ctrl+e",
+        "command": "cursorLineEnd"
+    },
+    {
+        "key": "ctrl+a",
+        "command": "-cursorLineStart",
+        "when": "textInputFocus"
+    },
+    {
+        "key": "ctrl+a",
+        "command": "-extension.vim_ctrl+a",
+        "when": "editorTextFocus && vim.active && vim.use<C-a> && !inDebugRepl"
+    },
+    {
+        "key": "ctrl+a",
+        "command": "cursorLineStart"
+    },
+    {
+        "key": "ctrl+k",
+        "command": "-extension.vim_ctrl+k",
+        "when": "editorTextFocus && vim.active && vim.use<C-k> && !inDebugRepl"
+    },
+    {
+        "key": "cmd+r",
+        "command": "-workbench.action.reloadWindow",
+        "when": "isDevelopment"
+    },
+    {
+        "key": "cmd+r",
+        "command": "workbench.action.gotoSymbol"
+    },
+    {
+        "key": "shift+cmd+o",
+        "command": "-workbench.action.gotoSymbol"
+    },
+    {
+        "key": "ctrl+d",
+        "command": "-deleteRight",
+        "when": "textInputFocus"
+    },
+    {
+        "key": "ctrl+delete",
+        "command": "-deleteRight",
+        "when": "textInputFocus"
+    },
+    {
+        "key": "ctrl+d",
+        "command": "-extension.vim_ctrl+d",
+        "when": "editorTextFocus && vim.active && !inDebugRepl"
+    },
+    {
+        "key": "ctrl+d",
+        "command": "-list.focusPageDown",
+        "when": "listFocus && !inputFocus"
+    },
+    {
+        "key": "ctrl+d",
+        "command": "deleteRight",
+        "when": "textInputFocus"
+    },
+    {
+        "key": "delete",
+        "command": "-deleteRight",
+        "when": "textInputFocus"
+    },
+    {
+        "key": "ctrl+k ctrl+l",
+        "command": "editor.action.transformToLowercase"
+    },
+    {
+        "key": "ctrl+shift+l",
+        "command": "editor.action.insertCursorAtEndOfEachLineSelected",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "shift+alt+i",
+        "command": "-editor.action.insertCursorAtEndOfEachLineSelected",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+k",
+        "command": "deleteAllRight"
+    },
+    {
+        "key": "ctrl+shift+w",
+        "command": "cursorWordEndRightSelect",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "shift+alt+w",
+        "command": "cursorWordPartRightSelect",
+        "when": "textInputFocus"
+    },
+    {
+        "key": "ctrl+shift+alt+right",
+        "command": "-cursorWordPartRightSelect",
+        "when": "textInputFocus"
+    },
+    {
+        "key": "ctrl+shift+b",
+        "command": "cursorWordLeftSelect",
+        "when": "textInputFocus"
+    },
+    {
+        "key": "shift+alt+left",
+        "command": "-cursorWordLeftSelect",
+        "when": "textInputFocus"
+    },
+    {
+        "key": "shift+alt+b",
+        "command": "cursorWordPartLeftSelect",
+        "when": "textInputFocus"
+    },
+    {
+        "key": "ctrl+shift+alt+left",
+        "command": "-cursorWordPartLeftSelect",
+        "when": "textInputFocus"
+    },
+    {
+        "key": "ctrl+]",
+        "command": "cursorWordRight"
+    },
+    {
+        "key": "ctrl+[",
+        "command": "cursorWordLeft",
+        "when": "textInputFocus"
+    },
+    {
+        "key": "alt+left",
+        "command": "-cursorWordLeft",
+        "when": "textInputFocus"
+    },
+    {
+        "key": "ctrl+n",
+        "command": "-extension.vim_ctrl+n",
+        "when": "editorTextFocus && vim.active && vim.use<C-n> && !inDebugRepl || vim.active && vim.use<C-n> && !inDebugRepl && vim.mode == 'CommandlineInProgress' || vim.active && vim.use<C-n> && !inDebugRepl && vim.mode == 'SearchInProgressMode'"
+    },
+    {
+        "key": "delete",
+        "command": "deleteRight",
+        "when": "textInputFocus"
+    },
+    {
+        "key": "ctrl+shift+i",
+        "command": "extension.wrapTag",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+i",
+        "command": "-extension.wrapTag",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+cmd+v",
+        "command": "latex-workshop.refresh-viewer"
+    }
+]
