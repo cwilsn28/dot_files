@@ -1,0 +1,33 @@
+[metadata]
+name = 'HackTheBox'
+
+[colors]
+ansi = [
+  '#141d2b',
+  '#ff8484',
+  '#c5f467',
+  '#ffcc5c',
+  '#5cb2ff',
+  '#cf8dfb',
+  '#5cecc6',
+  '#c5d1eb',
+]
+background = '#141d2b'
+brights = [
+  '#141d2b',
+  '#ff8484',
+  '#c5f467',
+  '#ffcc5c',
+  '#5cb2ff',
+  '#cf8dfb',
+  '#5cecc6',
+  '#c5d1eb',
+]
+cursor_bg = '#a4b1cd'
+cursor_border = '#a4b1cd'
+cursor_fg = '#a4b1cd'
+foreground = '#a4b1cd'
+selection_bg = '#3e3859'
+selection_fg = '#cbe3e7'
+
+[colors.indexed]
